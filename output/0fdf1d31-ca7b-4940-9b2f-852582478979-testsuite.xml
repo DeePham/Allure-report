@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1730162863439' stop='1730162928904'>
+    <name>AI:</name>
+    <title>AI:</title>
+    <test-cases>
+        <test-case start='1730162864002' status='passed' stop='1730162894638'>
+            <name>test ai features_4</name>
+            <title>test ai features_4</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1730162864511' status='passed' stop='1730162865568'>
+                    <name>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</name>
+                    <title>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1730162894681' status='failed' stop='1730162928860'>
+            <name>test ai features_5</name>
+            <title>test ai features_5</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1730162895085' status='passed' stop='1730162910478'>
+                    <name>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</name>
+                    <title>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730162910480' status='undefined'>
+                    <name>I fill field "First name", "John"</name>
+                    <title>I fill field "First name", "John"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1730162911562' status='failed' stop='1730162912648'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162912649' status='failed' stop='1730162913734'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162913735' status='failed' stop='1730162914820'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162914821' status='failed' stop='1730162915890'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162915891' status='failed' stop='1730162916966'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162916967' status='failed' stop='1730162918039'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162918040' status='failed' stop='1730162919117'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162919118' status='failed' stop='1730162920199'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162920200' status='failed' stop='1730162921270'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162921271' status='failed' stop='1730162922360'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162922361' status='failed' stop='1730162923433'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162923434' status='failed' stop='1730162924518'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162924519' status='failed' stop='1730162925586'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162925587' status='failed' stop='1730162926680'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162926681' status='failed' stop='1730162927770'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730162927771' status='failed' stop='1730162928858'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>locator.all: Target page, context or browser has been closed</message>
+                <stack-trace>locator.all: Target page, context or browser has been closed
+                    at findElements (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:3460:55)
+                    at Playwright._locate (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:1291:12)
+                    at async Playwright.grabHTMLFromAll (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:2141:17)
+                    at async Playwright.grabHTMLFrom (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:2131:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

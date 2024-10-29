@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1730162844471' stop='1730162858304'>
+    <name>AI:</name>
+    <title>AI:</title>
+    <test-cases>
+        <test-case start='1730162845009' status='passed' stop='1730162858229'>
+            <name>test ai features_4</name>
+            <title>test ai features_4</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1730162845454' status='passed' stop='1730162846504'>
+                    <name>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</name>
+                    <title>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

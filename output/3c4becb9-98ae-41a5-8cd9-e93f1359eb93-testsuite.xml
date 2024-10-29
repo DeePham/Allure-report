@@ -1,0 +1,139 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729817011184' stop='1729817026877'>
+    <name>AI:</name>
+    <title>AI:</title>
+    <test-cases>
+        <test-case start='1729817011621' status='passed' stop='1729817026758'>
+            <name>test ai features_3</name>
+            <title>test ai features_3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1729817012031' status='passed' stop='1729817016533'>
+                    <name>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</name>
+                    <title>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817016535' status='passed' stop='1729817018540'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817018542' status='passed' stop='1729817018550'>
+                    <name>I grab current url </name>
+                    <title>I grab current url </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817018552' status='passed' stop='1729817018917'>
+                    <name>I fill field "#firstName", "John"</name>
+                    <title>I fill field "#firstName", "John"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817018919' status='passed' stop='1729817019263'>
+                    <name>I fill field "#lastName", "Doe"</name>
+                    <title>I fill field "#lastName", "Doe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817019263' status='passed' stop='1729817019615'>
+                    <name>I fill field "#username", "johndoe"</name>
+                    <title>I fill field "#username", "johndoe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817019617' status='passed' stop='1729817020381'>
+                    <name>I fill field "#email", "johndoe@example.com"</name>
+                    <title>I fill field "#email", "johndoe@example.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817020382' status='passed' stop='1729817020997'>
+                    <name>I fill field "#address", "1234 Main St"</name>
+                    <title>I fill field "#address", "1234 Main St"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817020999' status='passed' stop='1729817021370'>
+                    <name>I fill field "#address2", "Apt 101"</name>
+                    <title>I fill field "#address2", "Apt 101"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817021371' status='passed' stop='1729817021526'>
+                    <name>I select option "#country", "United States"</name>
+                    <title>I select option "#country", "United States"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817021527' status='passed' stop='1729817021677'>
+                    <name>I select option "#state", "California"</name>
+                    <title>I select option "#state", "California"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817021679' status='passed' stop='1729817022030'>
+                    <name>I fill field "#zip", "12345"</name>
+                    <title>I fill field "#zip", "12345"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817022031' status='passed' stop='1729817022212'>
+                    <name>I check option "#same-address"</name>
+                    <title>I check option "#same-address"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817022214' status='passed' stop='1729817022385'>
+                    <name>I check option "#save-info"</name>
+                    <title>I check option "#save-info"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817022386' status='passed' stop='1729817022525'>
+                    <name>I check option "#credit"</name>
+                    <title>I check option "#credit"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817022526' status='passed' stop='1729817022952'>
+                    <name>I fill field "#cc-name", "John Doe"</name>
+                    <title>I fill field "#cc-name", "John Doe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817022953' status='passed' stop='1729817023561'>
+                    <name>I fill field "#cc-number", "4111111111111111"</name>
+                    <title>I fill field "#cc-number", "4111111111111111"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817023561' status='passed' stop='1729817023904'>
+                    <name>I fill field "#cc-expiration", "12/25"</name>
+                    <title>I fill field "#cc-expiration", "12/25"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817023905' status='passed' stop='1729817024180'>
+                    <name>I fill field "#cc-cvv", "123"</name>
+                    <title>I fill field "#cc-cvv", "123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729817024181' status='passed' stop='1729817026756'>
+                    <name>I click "button[type=submit]"</name>
+                    <title>I click "button[type=submit]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

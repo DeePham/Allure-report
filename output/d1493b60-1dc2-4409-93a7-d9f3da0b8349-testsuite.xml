@@ -1,0 +1,209 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1730164596999' stop='1730164715114'>
+    <name>AI:</name>
+    <title>AI:</title>
+    <test-cases>
+        <test-case start='1730164597394' status='passed' stop='1730164704248'>
+            <name>test ai features_5</name>
+            <title>test ai features_5</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1730164597897' status='passed' stop='1730164598756'>
+                    <name>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</name>
+                    <title>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164598760' status='passed' stop='1730164599060'>
+                    <name>I fill field "First name", "John"</name>
+                    <title>I fill field "First name", "John"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164599062' status='passed' stop='1730164599350'>
+                    <name>I fill field "Last name", "Doe"</name>
+                    <title>I fill field "Last name", "Doe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164599351' status='passed' stop='1730164599727'>
+                    <name>I fill field "Username", "johndoe"</name>
+                    <title>I fill field "Username", "johndoe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164599728' status='passed' stop='1730164600564'>
+                    <name>I fill field "Email", "john.doe@example.com"</name>
+                    <title>I fill field "Email", "john.doe@example.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164600564' status='passed' stop='1730164601128'>
+                    <name>I fill field "Address", "1234 Main St"</name>
+                    <title>I fill field "Address", "1234 Main St"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164601129' status='passed' stop='1730164601607'>
+                    <name>I fill field "Address 2", "Apt 101"</name>
+                    <title>I fill field "Address 2", "Apt 101"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164601607' status='passed' stop='1730164601769'>
+                    <name>I select option "Country", "United States"</name>
+                    <title>I select option "Country", "United States"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164601770' status='passed' stop='1730164601942'>
+                    <name>I select option "State", "California"</name>
+                    <title>I select option "State", "California"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164601943' status='passed' stop='1730164602322'>
+                    <name>I fill field "Zip", "12345"</name>
+                    <title>I fill field "Zip", "12345"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164602322' status='undefined'>
+                    <name>I check option "same-address"</name>
+                    <title>I check option "same-address"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1730164603546' status='passed' stop='1730164603558'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164605672' status='failed' stop='1730164607010'>
+                            <name>I click "same-address"</name>
+                            <title>I click "same-address"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164607012' status='passed' stop='1730164607031'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164608818' status='failed' stop='1730164610120'>
+                            <name>I click "save-info"</name>
+                            <title>I click "save-info"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164610121' status='passed' stop='1730164610132'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164613332' status='failed' stop='1730164614618'>
+                            <name>I click "credit"</name>
+                            <title>I click "credit"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164614619' status='passed' stop='1730164614636'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164617134' status='passed' stop='1730164617379'>
+                            <name>I click "Name on card"</name>
+                            <title>I click "Name on card"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164617379' status='passed' stop='1730164618401'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164618401' status='passed' stop='1730164618504'>
+                            <name>I type "John Doe"</name>
+                            <title>I type "John Doe"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164618509' status='passed' stop='1730164619212'>
+                            <name>I fill field "Credit card number", "1234 5678 9012 3456"</name>
+                            <title>I fill field "Credit card number", "1234 5678 9012 3456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164619213' status='passed' stop='1730164619529'>
+                            <name>I fill field "Expiration", "12/23"</name>
+                            <title>I fill field "Expiration", "12/23"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164619529' status='passed' stop='1730164619790'>
+                            <name>I fill field "CVV", "123"</name>
+                            <title>I fill field "CVV", "123"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730164619791' status='passed' stop='1730164619803'>
+                            <name>I see "Continue to checkout"</name>
+                            <title>I see "Continue to checkout"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1730164704294' status='failed' stop='1730164714392'>
+            <name>test ai features_6</name>
+            <title>test ai features_6</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1730164704632' status='passed' stop='1730164713005'>
+                    <name>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</name>
+                    <title>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164713006' status='passed' stop='1730164713289'>
+                    <name>I fill field "First name", "John"</name>
+                    <title>I fill field "First name", "John"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730164713290' status='failed' stop='1730164714389'>
+                    <name>I fill field ".search", "Doe"</name>
+                    <title>I fill field ".search", "Doe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='5662fdb8-539d-45bd-ac83-4b188217dd63-attachment.png' type='image/png' size='62362'/>
+            </attachments>
+            <failure>
+                <message>Field ".search" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field ".search" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:15:11)
+                    at assertElementExists (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:3742:11)
+                    at Playwright.fillField (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:1741:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

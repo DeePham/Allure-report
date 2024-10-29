@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1730161932590' stop='1730161940421'>
+    <name>AI:</name>
+    <title>AI:</title>
+    <test-cases>
+        <test-case start='1730161933075' status='failed' stop='1730161939791'>
+            <name>test ai features_4</name>
+            <title>test ai features_4</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1730161933536' status='passed' stop='1730161934517'>
+                    <name>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</name>
+                    <title>I am on page "https://getbootstrap.com/docs/5.1/examples/checkout/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730161934519' status='passed' stop='1730161934790'>
+                    <name>I fill field "#firstName", "John"</name>
+                    <title>I fill field "#firstName", "John"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1730161934791' status='undefined'>
+                    <name>I fill field ".search", "Doe"</name>
+                    <title>I fill field ".search", "Doe"</title>
+                    <attachments>
+                        <attachment title='Main session - Last Seen Screenshot' source='44134809-f565-4320-962e-abe5298003e8-attachment.png' type='image/png' size='62362'/>
+                    </attachments>
+                    <steps>
+                        <step start='1730161935903' status='passed' stop='1730161935960'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1730161938668' status='failed' stop='1730161939789'>
+                            <name>I click ".search"</name>
+                            <title>I click ".search"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Clickable element ".search" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element ".search" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:15:11)
+                    at assertElementExists (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:3742:11)
+                    at Playwright.proceedClick (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\helper\Playwright.js:3501:5)
+                    at async C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\node_modules\codeceptjs\lib\plugin\heal.js:85:7
+                    at async Test.&lt;anonymous> (C:\Users\phamh\OneDrive\Documents\SWT\codeceptjs\AI_test.js:7:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

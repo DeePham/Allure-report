@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10581","test ai features_2","","Fri Oct 25 07:42:14 ICT 2024","failed","Fri Oct 25 07:42:25 ICT 2024","","AI:","AI:","test ai features_2"
+"","9708","test ai features","","Fri Oct 25 07:40:01 ICT 2024","failed","Fri Oct 25 07:40:11 ICT 2024","","AI:","AI:","test ai features"
+"","15137","test ai features_3","","Fri Oct 25 07:43:31 ICT 2024","passed","Fri Oct 25 07:43:46 ICT 2024","","AI:","AI:","test ai features_3"
